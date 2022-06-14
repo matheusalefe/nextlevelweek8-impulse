@@ -5,7 +5,7 @@ export function Widget() {
   return( 
       <Popover className='absolute bottom-5 right-5 group'>
         
-        <Popover.Panel>Hello, world!</p>
+        <Popover.Panel>Hello, world!</Popover.Panel>
 
         <Popover.Button className='bg-brand-500 px-3 h-12 rounded-full text-white flex items-center hover:bg-brand-300'>
 
