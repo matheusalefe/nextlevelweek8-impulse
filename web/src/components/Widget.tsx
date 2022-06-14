@@ -1,15 +1,25 @@
 import { ChatTeardropDots } from 'phosphor-react';
+import { Popover } from '@headlessui/react'
 
 export function Widget() {
-    return( 
-      <div className='absolute bottom-5 right-5'>
-        <button className='bg-brand-500 px-3 h-12 rounded-full text-white flex items-center group hover:bg-brand-300'>
+  return( 
+      <Popover className='absolute bottom-5 right-5 group'>
+        
+        <Popover.Panel>Hello, world!</p>
+
+        <Popover.Button className='bg-brand-500 px-3 h-12 rounded-full text-white flex items-center hover:bg-brand-300'>
+
           <ChatTeardropDots className='w-6 h-6' />
+
           <span className='max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-300 ease-linear'>
-            <span className='pl-2'></span>
-            Feedback
+
+            <span className='pl-2'>
+              Feedback
+            </span>
+            
           </span>
-        </button>
-      </div> 
+
+        </Popover.Button>
+      </Popover> 
     )
   }
