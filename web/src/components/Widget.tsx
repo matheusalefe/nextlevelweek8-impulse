@@ -1,6 +1,18 @@
 import { ChatTeardropDots } from 'phosphor-react';
 import { Popover } from '@headlessui/react'
 
+/*################################################################### 
+***Version
+  
+    220615 MAM                Initial Version
+***Description***
+    Widget                    Create a widget to det users feedback 
+***Props***
+    Popover.Panel             Content showed whe the button is clicked
+    Popover.button             Button mechanism
+
+#####################################################################*/
+
 export function Widget() {
   return( 
       <Popover className='absolute bottom-5 right-5 group'>
