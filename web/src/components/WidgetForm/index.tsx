@@ -56,7 +56,7 @@ export function WidgetForm(){
                 }
                 
 
-            <footer className="text-xs text-neutral-400 underline-offset-2">
+            <footer className="text-xs text-neutral-400 underline-offset-2 text-center py-2">
                 Uma solução <a href="http://www.info-rmi.com/">InfoRMI</a> 
             </footer>
         </div>
